@@ -162,7 +162,7 @@ img{max-width:100%;display:block}
   padding: 96px 0 88px;
   color: #fff;
   max-width: 760px;
-  margin-left: 400px; /* Bu değer arttıkça yazı sağa doğru itilir */
+  margin-left: 200px; /* Bu değer arttıkça yazı sağa doğru itilir */
 }
 .eyebrow{
   display:inline-block;
