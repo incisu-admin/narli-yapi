@@ -565,12 +565,22 @@ img{max-width:100%;display:block}
   .brand-grid,.why-grid{
     grid-template-columns:repeat(2,minmax(0,1fr));
   }
-  .two-col,.contact-grid,.footer-grid,.depot-grid,.product-list{
+
+  .two-col,
+  .contact-grid,
+  .footer-grid,
+  .product-list{
     grid-template-columns:1fr;
   }
+
+  .depot-grid{
+    grid-template-columns:repeat(2,1fr);
+    max-width:900px;
+    margin:0 auto;
+  }
+
   .nav{flex-wrap:wrap}
 }
-
 @media (max-width:760px){
   .hero{min-height:74vh}
   .hero h1{font-size:40px}
@@ -643,4 +653,3 @@ img{max-width:100%;display:block}
   100%{
     background-image:url('assets/hero-depo.png');
   }
-
