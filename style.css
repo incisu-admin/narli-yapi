@@ -578,7 +578,6 @@ img{max-width:100%;display:block}
     grid-template-columns:1fr;
   }
 
-  /* 👉 BURAYI DEĞİŞTİRDİK */
   .depot-grid{
     grid-template-columns:repeat(2,minmax(0,1fr));
     max-width:900px;
@@ -589,37 +588,70 @@ img{max-width:100%;display:block}
     flex-wrap:wrap;
   }
 }
+
 @media (max-width:900px){
+
   .depot-grid{
     grid-template-columns:1fr;
     max-width:600px;
+    margin:0 auto;
   }
+
 }
+
 @media (max-width:760px){
-  .hero{min-height:74vh}
 
-  .hero h1{font-size:40px}
-  .hero p{font-size:17px}
+  .hero{
+    min-height:74vh;
+  }
 
-  .nav-links{gap:16px}
+  .hero h1{
+    font-size:40px;
+  }
+
+  .hero p{
+    font-size:17px;
+  }
+
+  .nav-links{
+    gap:16px;
+  }
 
   .brand-grid,
   .why-grid{
     grid-template-columns:1fr;
   }
 
-  .section{padding:64px 0}
+  .section{
+    padding:64px 0;
+  }
 
   .logo-img{
     width:48px;
     height:48px;
   }
 
-  /* 👉 EKLE */
+  .brand-text strong{
+    font-size:20px;
+  }
+
+  .brand-text span{
+    font-size:10px;
+  }
+
+  .why-title{
+    font-size:30px;
+  }
+
+  .section-desc{
+    font-size:16px;
+  }
+
   .depot-grid{
     max-width:100%;
     padding:0 12px;
   }
+
 }
   .brand-text strong{font-size:20px}
   .brand-text span{font-size:10px}
