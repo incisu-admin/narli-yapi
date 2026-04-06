@@ -384,10 +384,20 @@ img{max-width:100%;display:block}
   border:1px solid var(--border);
   box-shadow:var(--shadow);
 }
+.depot-card{
+  background:#fff;
+  border-radius:24px;
+  overflow:hidden;
+  border:1px solid var(--border);
+  box-shadow:var(--shadow);
+  height:100%;
+}
+
 .depot-card img{
-  height:300px;
   width:100%;
+  aspect-ratio:16 / 10;
   object-fit:cover;
+  display:block;
 }
 .depot-body{padding:18px 20px}
 .depot-body h3{
