@@ -613,21 +613,7 @@ img{max-width:100%;display:block}
   animation:heroSlider 18s infinite;
 }
 
-/* koyu overlay (senin mevcut gibi) */
-.hero::before{
-  content:"";
-  position:absolute;
-  inset:0;
-  background:linear-gradient(
-    90deg, 
-    rgba(0,0,0,.7) 0%,
-    rgba(0,0,0,.4) 40%,
-    transparent 100%
-  );
-  z-index:1;
-}
 
-}
 @keyframes heroSlider{
   0%{
     background-image:url('assets/hero-depo.png');
